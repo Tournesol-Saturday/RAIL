@@ -46,26 +46,25 @@ We obtained two public datasets and processed them in some way. All datasets are
 	CBCT_data/
 		labeled_1000889125_20171009_0/
 			CBCT_roi.h5
+		......
+		unlabeled_X2360674_14/
+			CBCT_roi.h5
 	Flods/
+		train.list
+		val.list
+		test.list
 
-	train/
-		images/
-			1000889125_20171009.nii.gz
-			......
-			X2360674.nii.gz
-		labels/
-			1000889125_20171009.nii.gz
-			......
-			X2360674.nii.gz
-	valid/
-		images/
-			1000813648_20180116.nii.gz
-			......
-			X2358714.nii.gz
-		labels/
-			1000813648_20180116.nii.gz
-			......
-			X2358714.nii.gz
+./dataset/CBCT_7_113/
+	CBCT_data/
+		labeled_1000889125_20171009_0/
+			CBCT_roi.h5
+		......
+		unlabeled_X2360674_14/
+			CBCT_roi.h5
+	Flods/
+		train.list
+		val.list
+		test.list
 ```
   3. [CTooth dataset](https://github.com/liangjiubujiu/CTooth):
 
