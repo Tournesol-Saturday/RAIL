@@ -11,7 +11,7 @@ RAIL is a semi-supervised learning framework designed to improve the accuracy an
 
 ## News!
 
-- **[04/13/2025]** RAIL framework code and models are now available! Please check out the [GitHub repository](#) for more details.
+- **[04/14/2025]** RAIL framework code and models are now available! Please check out the [GitHub repository](#) for more details.
 
 ## Overview
 
