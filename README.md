@@ -1,1 +1,0 @@
-# RAIL-egion-Aware-Instructive-Learning-for-Semi-Supervised-3D-Tooth-Segmentation-from-CBCT
