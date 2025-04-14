@@ -1,11 +1,11 @@
 # RAIL: Region-Aware Instructive Learning for Semi-Supervised 3D Tooth Segmentation from CBCT
 
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue) 
-![License](https://img.shields.io/github/license/1Hun0ter1/satefy_cw_project) 
-![Last Commit](https://img.shields.io/github/last-commit/1Hun0ter1/satefy_cw_project) 
-![Stars](https://img.shields.io/github/stars/1Hun0ter1/satefy_cw_project?style=social) 
-![Issues](https://img.shields.io/github/issues/1Hun0ter1/satefy_cw_project) 
-![Forks](https://img.shields.io/github/forks/1Hun0ter1/satefy_cw_project)
+![License](https://img.shields.io/github/license/Tournesol-Saturday/RAIL) 
+![Last Commit](https://img.shields.io/github/last-commit/Tournesol-Saturday/RAIL) 
+![Stars](https://img.shields.io/github/stars/Tournesol-Saturday/RAIL?style=social) 
+![Issues](https://img.shields.io/github/issues/Tournesol-Saturday/RAIL) 
+![Forks](https://img.shields.io/github/forks/Tournesol-Saturday/RAIL)
 
 RAIL is a semi-supervised learning framework designed to improve the accuracy and robustness of 3D tooth segmentation from Cone-Beam Computed Tomography (CBCT) scans, particularly when labeled data is scarce. The framework leverages region-aware instruction mechanisms to focus on anatomically complex or ambiguous areas, significantly enhancing segmentation performance in the presence of unreliable pseudo-labels.
 
