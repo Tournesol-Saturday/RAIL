@@ -40,7 +40,27 @@ Download the model checkpoint and save it at `./models/model.pt`.
 We obtained two public datasets and processed them in some way. All datasets are placed in the ./dataset directory after unzipping.
 
   1. [3D CBCT Tooth Dataset](https://pan.baidu.com/share/init?surl=0qf6k10GE9OHYcJ76wrx-w&pwd=6ad8):
-     
+     ```
+     ./datasets/3D-CBCT-Tooth/
+	sub_volumes/160-160-96_2048.npz
+	train/
+		images/
+			1000889125_20171009.nii.gz
+			......
+			X2360674.nii.gz
+		labels/
+			1000889125_20171009.nii.gz
+			......
+			X2360674.nii.gz
+	valid/
+		images/
+			1000813648_20180116.nii.gz
+			......
+			X2358714.nii.gz
+		labels/
+			1000813648_20180116.nii.gz
+			......
+			X2358714.nii.gz
   3. [CTooth dataset](https://github.com/liangjiubujiu/CTooth):
 
 ## Usage
