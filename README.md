@@ -35,9 +35,13 @@ pip install -r requirements.txt
 
 Download the model checkpoint and save it at `./models/model.pt`.
 
-## Dataset
+## Dataset Preparation
 
+We obtained two public datasets and processed them in some way. All datasets are placed in the ./dataset directory after unzipping.
 
+  1. [3D CBCT Tooth Dataset](https://pan.baidu.com/share/init?surl=0qf6k10GE9OHYcJ76wrx-w&pwd=6ad8):
+     
+  3. [CTooth dataset](https://github.com/liangjiubujiu/CTooth):
 
 ## Usage
 
@@ -60,9 +64,7 @@ If you use this project in your work, please cite the following paper:
 
 ## Acknowledgements
 
-We would like to acknowledge the contributions of the following projects and datasets:
+We would like to acknowledge the contributions of the following projects:
 
 - [PMT](https://github.com/Axi404/PMT)
 - [SDCL](https://github.com/pascalcpp/SDCL)
-- [3D CBCT Tooth Dataset](https://pan.baidu.com/share/init?surl=0qf6k10GE9OHYcJ76wrx-w&pwd=6ad8)
-- [CTooth dataset](https://github.com/liangjiubujiu/CTooth)
