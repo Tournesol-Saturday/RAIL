@@ -62,5 +62,7 @@ If you use this project in your work, please cite the following paper:
 
 We would like to acknowledge the contributions of the following projects and datasets:
 
-- [Segment Anything](https://chatgpt.com/c/67fbb991-8e64-8010-8709-365bca3388d2#)
-- [TotalSegmentator](https://chatgpt.com/c/67fbb991-8e64-8010-8709-365bca3388d2#)
+- [PMT](https://github.com/Axi404/PMT)
+- [SDCL](https://github.com/pascalcpp/SDCL)
+- [3D CBCT Tooth Dataset]()
+- [CTooth dataset]()
