@@ -64,5 +64,5 @@ We would like to acknowledge the contributions of the following projects and dat
 
 - [PMT](https://github.com/Axi404/PMT)
 - [SDCL](https://github.com/pascalcpp/SDCL)
-- [3D CBCT Tooth Dataset]()
-- [CTooth dataset]()
+- [3D CBCT Tooth Dataset](https://pan.baidu.com/share/init?surl=0qf6k10GE9OHYcJ76wrx-w&pwd=6ad8)
+- [CTooth dataset](https://github.com/liangjiubujiu/CTooth)
