@@ -28,7 +28,7 @@ RAIL outperforms state-of-the-art methods under limited annotation scenarios, im
 To perform inference locally with the debugger GUI, follow these steps:
 
 ```bash
-git clone https://github.com/yourusername/RAIL.git;
+git clone https://github.com/Tournesol-Saturday/RAIL.git;
 cd ./RAIL;
 pip install -r requirements.txt
 ```
