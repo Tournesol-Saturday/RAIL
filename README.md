@@ -13,7 +13,7 @@ RAIL is a semi-supervised learning framework designed to improve the accuracy an
 
 ## News!
 
-- **[04/14/2025]** RAIL framework code and models are now available! Please check out the [GitHub repository](#) for more details.
+- **[04/15/2025]** RAIL framework code and models are now available! Please check out the [GitHub repository](#) for more details.
 
 ## Overview
 
@@ -66,7 +66,33 @@ We obtained two public datasets and processed them in some way. All datasets are
 		val.list
 		test.list
 ```
-  3. [CTooth dataset](https://github.com/liangjiubujiu/CTooth):
+  2. [CTooth dataset](https://github.com/liangjiubujiu/CTooth):
+
+```
+./dataset/CTooth_13_109/
+	CTooth_data/
+		labeled_1000889125_20171009_0/
+			CBCT_roi.h5
+		......
+		unlabeled_X2360674_14/
+			CBCT_roi.h5
+	Flods/
+		train.list
+		val.list
+		test.list
+
+./dataset/CTooth_7_115/
+	CTooth_data/
+		labeled_Teeth_0001_0000_0/
+			CBCT_roi.h5
+		......
+		unlabeled_Teeth_0013_0000_14/
+			CBCT_roi.h5
+	Flods/
+		train.list
+		val.list
+		test.list
+```
 
 ## Usage
 
