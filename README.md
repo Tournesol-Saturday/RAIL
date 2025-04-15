@@ -1,6 +1,6 @@
 # RAIL: Region-Aware Instructive Learning for Semi-Supervised 3D Tooth Segmentation from CBCT
 
-by Chuyu Zhao, Hao Huang, Jiashuo Guo, Ziyu Shen, Jie Liu 
+by Chuyu Zhao, Hao Huang, Jiashuo Guo, Ziyu Shen, Jie Liu, Zekuan Yu 
 
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue) 
 ![License](https://img.shields.io/github/license/Tournesol-Saturday/RAIL) 
