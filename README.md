@@ -128,7 +128,7 @@ python train_RAIL.py
 python test_CBCT.py
 ```
 
-## 📚 Reference
+## 🖋🧾 Citation
 
 If you use this project in your work, please cite the following paper:
 
