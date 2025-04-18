@@ -1,4 +1,4 @@
-# RAIL: Region-Aware Instructive Learning for Semi-Supervised 3D Tooth Segmentation from CBCT ![牙齿](https://img.icons8.com/ios/50/000000/dental-care.png)
+# 🚆 RAIL: Region-Aware Instructive Learning for Semi-Supervised 3D Tooth Segmentation from CBCT ![牙齿](https://img.icons8.com/ios/50/000000/dental-care.png)
 
 by [Chuyu Zhao<sup>*</sup>](https://github.com/Tournesol-Saturday), [Hao Huang<sup>*</sup>](https://github.com/haohuang2003), [Jiashuo Guo<sup>*</sup>](https://github.com/JiashuoGuo), Ziyu Shen<sup>*</sup>, Jie Liu<sup>†</sup>, Zekuan Yu<sup>†</sup> 
 
@@ -14,20 +14,20 @@ by [Chuyu Zhao<sup>*</sup>](https://github.com/Tournesol-Saturday), [Hao Huang<s
 
 RAIL is a semi-supervised learning framework designed to improve the accuracy and robustness of 3D tooth segmentation from Cone-Beam Computed Tomography (CBCT) scans, particularly when labeled data is scarce. The framework leverages region-aware instruction mechanisms to focus on anatomically complex or ambiguous areas, significantly enhancing segmentation performance in the presence of unreliable pseudo-labels.
 
-## News!
+## 📰 News!
 
 - **[04/18/2025]** We provide RAIL model checkpoints trained on 3D_CBCT_Tooth_7_113, 3D_CBCT_Tooth_13_107, CTooth_7_115 and CTooth_13_109. Link: Extraction Code:
 - **[04/15/2025]** RAIL framework code and models are now available! Please check out the [GitHub repository](#) for more details.
 
-## Overview
+## 🧑‍🏫 Overview
 
 RAIL (Region-Aware Instructive Learning) is a novel dual-group, dual-student semi-supervised framework for medical image segmentation, specifically designed to address the issue of limited labeled data in CBCT-based 3D tooth segmentation. This approach introduces two key mechanisms:
-- **Disagreement-Focused Supervision (DFS) Controller:** Focuses on areas where model predictions diverge to improve supervision in anatomically ambiguous or mislabeled regions.
-- **Confidence-Aware Learning (CAL) Modulator:** Enhances model stability by reinforcing high-confidence predictions and suppressing low-confidence pseudo-labels.
+- 🔧 **Disagreement-Focused Supervision (DFS) Controller:** Focuses on areas where model predictions diverge to improve supervision in anatomically ambiguous or mislabeled regions.
+- 🎯 *Confidence-Aware Learning (CAL) Modulator:** Enhances model stability by reinforcing high-confidence predictions and suppressing low-confidence pseudo-labels.
 
 RAIL outperforms state-of-the-art methods under limited annotation scenarios, improving both segmentation accuracy and model reliability in medical imaging tasks.
 
-## Installation
+## ⚙️ Installation
 
 To perform inference locally with the debugger GUI, follow these steps:
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt
 
 We obtained two public datasets and preprocessed them in some way. All datasets are placed in the `./dataset` directory after preprocessing (data augmentation).
 
-### Dataset Preprocessing (Data Augmentation)
+### 📊 Dataset Preprocessing (Data Augmentation)
 
 To expand the training dataset, we augmented the available CBCT scans by 1) intensity normalization, and 2) random cropped patches.
 
@@ -61,7 +61,7 @@ Then you can use the following command to implement the augmentation of unlabele
 dataloaders/data_augmentation_unlabeled.py
 ```
 
-### Dataset Directory Structure
+### 🗂️ Dataset Directory Structure
 
   1. [3D CBCT Tooth Dataset](https://pan.baidu.com/share/init?surl=0qf6k10GE9OHYcJ76wrx-w&pwd=6ad8):
 
@@ -118,7 +118,7 @@ dataloaders/data_augmentation_unlabeled.py
 		test.list
 ```
 
-## Usage
+## 🚀 Usage
 
 ```
 # after install dependcies
@@ -128,14 +128,14 @@ python train_RAIL.py
 python test_CBCT.py
 ```
 
-## Reference
+## 📚 Reference
 
 If you use this project in your work, please cite the following paper:
 
 ```
 ```
 
-## Acknowledgements
+## 🙏 Acknowledgements
 
 We would like to acknowledge the contributions of the following projects:
 
