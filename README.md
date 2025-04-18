@@ -2,6 +2,9 @@
 
 by [Chuyu Zhao<sup>*</sup>](https://github.com/Tournesol-Saturday), [Hao Huang<sup>*</sup>](https://github.com/haohuang2003), [Jiashuo Guo<sup>*</sup>](https://github.com/JiashuoGuo), Ziyu Shen<sup>*</sup>, Jie Liu<sup>†</sup>, Zekuan Yu<sup>†</sup> 
 
+*These authors contributed equally to this work.
+†Corresponding author: jieliu@bjtu.edu.cn, yzk@fudan.edu.cn
+
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue) 
 ![License](https://img.shields.io/github/license/Tournesol-Saturday/RAIL) 
 ![Last Commit](https://img.shields.io/github/last-commit/Tournesol-Saturday/RAIL) 
