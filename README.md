@@ -23,13 +23,13 @@ RAIL is a semi-supervised learning framework designed to improve the accuracy an
 
 RAIL (Region-Aware Instructive Learning) is a novel dual-group, dual-student semi-supervised framework for medical image segmentation, specifically designed to address the issue of limited labeled data in CBCT-based 3D tooth segmentation. This approach introduces two key mechanisms:
 - 🔧 **Disagreement-Focused Supervision (DFS) Controller:** Focuses on areas where model predictions diverge to improve supervision in anatomically ambiguous or mislabeled regions.
-- 🎯 *Confidence-Aware Learning (CAL) Modulator:** Enhances model stability by reinforcing high-confidence predictions and suppressing low-confidence pseudo-labels.
+- 🎯 **Confidence-Aware Learning (CAL) Modulator:** Enhances model stability by reinforcing high-confidence predictions and suppressing low-confidence pseudo-labels.
 
 RAIL outperforms state-of-the-art methods under limited annotation scenarios, improving both segmentation accuracy and model reliability in medical imaging tasks.
 
 ## ⚙️ Installation
 
-To perform inference locally with the debugger GUI, follow these steps:
+Please follow these steps to create an environment and install the environment dependencies by `requirements.txt`:
 
 ```bash
 git clone https://github.com/Tournesol-Saturday/RAIL.git;
