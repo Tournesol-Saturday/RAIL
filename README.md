@@ -38,7 +38,23 @@ pip install -r requirements.txt
 
 ## Dataset Preparation
 
-We obtained two public datasets and processed them in some way. All datasets are placed in the ./dataset directory after unzipping.
+We obtained two public datasets and preprocessed them in some way. All datasets are placed in the `./dataset` directory after preprocessing (data augmentation).
+
+### Dataset Preprocessing (Data Augmentation)
+
+To expand the training dataset, we augmented the available CBCT scans by 1) intensity normalization, and 2) random cropped patches.
+
+In this study, our CBCT data are stored in `.h5` format, which records the corresponding annotation information for a given scanned image (if it is an unlabeled image, the corresponding annotation information is all zeros). For both the training and validation sets (excluding the testing set), the data is scaled up to 15 times for each scan.
+
+In `dataloaders/data_augmentation.py`, you need to define the paths to the image and annotation folders of the CBCT scans, and then you can use the following commands to implement the augmentation of labeled data:
+
+`dataloaders/data_augmentation.py`
+
+Then you can use the following command to implement the augmentation of unlabeled data:
+
+`dataloaders/data_augmentation_unlabeled.py`
+
+### Dataset Directory Structure
 
   1. [3D CBCT Tooth Dataset](https://pan.baidu.com/share/init?surl=0qf6k10GE9OHYcJ76wrx-w&pwd=6ad8):
 
@@ -99,9 +115,9 @@ We obtained two public datasets and processed them in some way. All datasets are
 
 ```
 # after install dependcies
-git clone git@github.com:Axi404/PMT.git
-cd PMT/code
-python train_PMT.py
+git clone git@github.com:Tournesol-Saturday/RAIL.git
+cd RAIL/code
+python train_RAIL.py
 python test_LA.py
 ```
 
@@ -111,8 +127,6 @@ If you use this project in your work, please cite the following paper:
 
 ```
 ```
-
-
 
 ## Acknowledgements
 
