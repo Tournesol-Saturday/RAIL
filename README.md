@@ -1,6 +1,6 @@
 # RAIL: Region-Aware Instructive Learning for Semi-Supervised 3D Tooth Segmentation from CBCT
 
-by [Chuyu Zhao](https://github.com/Tournesol-Saturday), [Hao Huang](https://github.com/haohuang2003), [Jiashuo Guo](https://github.com/JiashuoGuo), Ziyu Shen, Jie Liu, Zekuan Yu 
+by [Chuyu Zhao$^{*}$](https://github.com/Tournesol-Saturday), [Hao Huang$^{*}$](https://github.com/haohuang2003), [Jiashuo Guo$^{*}$](https://github.com/JiashuoGuo), Ziyu Shen$^{*}$, Jie Liu$^{†}$, Zekuan Yu$^{†}$ 
 
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue) 
 ![License](https://img.shields.io/github/license/Tournesol-Saturday/RAIL) 
@@ -13,8 +13,8 @@ RAIL is a semi-supervised learning framework designed to improve the accuracy an
 
 ## News!
 
+- **[04/18/2025]** We provide RAIL model checkpoints trained on 3D_CBCT_Tooth_7_113, 3D_CBCT_Tooth_13_107, CTooth_7_115 and CTooth_13_109. Link: Extraction Code:
 - **[04/15/2025]** RAIL framework code and models are now available! Please check out the [GitHub repository](#) for more details.
-- **[04/18/2025]** We provide RAIL model checkpoints trained on 3D_CBCT_Tooth_7_113, 3D_CBCT_Tooth_13_107, CTooth_7_115 and CTooth_13_109. 链接: 提取码:
 
 ## Overview
 
@@ -122,7 +122,7 @@ dataloaders/data_augmentation_unlabeled.py
 git clone git@github.com:Tournesol-Saturday/RAIL.git
 cd RAIL/code
 python train_RAIL.py
-python test_LA.py
+python test_CBCT.py
 ```
 
 ## Reference
