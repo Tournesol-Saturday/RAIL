@@ -1,6 +1,6 @@
 # 🚆 RAIL: Region-Aware Instructive Learning for Semi-Supervised Tooth Segmentation in CBCT
 
-by [Chuyu Zhao<sup>*</sup>](https://github.com/Tournesol-Saturday), [Hao Huang<sup>*</sup>](https://github.com/haohuang2003), [Jiashuo Guo<sup>*</sup>](https://github.com/JiashuoGuo), Ziyu Shen<sup>*</sup>, Jie Liu<sup>†</sup>, Zekuan Yu<sup>†</sup> 
+by [Chuyu Zhao<sup>*</sup>](https://github.com/Tournesol-Saturday), [Hao Huang<sup>*</sup>](https://github.com/haohuang2003), [Jiashuo Guo<sup>*</sup>](https://github.com/JiashuoGuo), Ziyu Shen<sup>*</sup>, Zhongwei Zhou, Jie Liu<sup>†</sup>, Zekuan Yu<sup>†</sup> 
 
 *These authors contributed equally to this work.  
 †Corresponding author: jieliu@bjtu.edu.cn, yzk@fudan.edu.cn
