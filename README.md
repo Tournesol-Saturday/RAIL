@@ -16,8 +16,8 @@ RAIL is a semi-supervised learning framework designed to improve the accuracy an
 
 ## 📰 News!
 
-- **[04/18/2025]** We provide RAIL model checkpoints trained on 3D_CBCT_Tooth_7_113, 3D_CBCT_Tooth_13_107, CTooth_7_115 and CTooth_13_109. Link: Extraction Code:
-- **[04/15/2025]** RAIL framework code and models are now available! Please check out the [GitHub repository](#) for more details.
+- **[05/7/2025]** RAIL framework code and models are now available! Please check out the [GitHub repository](#) for more details.
+- **[04/18/2025]** We provide RAIL model checkpoints trained on 3D_CBCT_Tooth_7_113, 3D_CBCT_Tooth_13_107, CTooth_7_115 and CTooth_13_109. Link: https://pan.baidu.com/s/1EXFAeZLMZJLqWjyfUQQkBA?pwd=jqxg. Extraction Code: `jqxg`
 
 ## 🧑‍🏫 Overview
 
