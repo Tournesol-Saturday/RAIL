@@ -28,6 +28,10 @@ RAIL (Region-Aware Instructive Learning) is a novel dual-group, dual-student sem
 
 RAIL outperforms state-of-the-art methods under limited annotation scenarios, improving both segmentation accuracy and model reliability in medical imaging tasks.
 
+## Requirements
+
+
+
 ## ⚙️ Environment
 
 Please follow these steps to create an environment and install the environment dependencies by `requirements.txt`:
@@ -138,11 +142,23 @@ To test a model,
 python test_CBCT.py
 ```
 
-## 🖋🧾 Citation
+## 🧾 Citation
 
 If you use this project in your work, please cite the following paper:
 
 ```
+@article{zhao2025rail,
+  title={RAIL: Region-Aware Instructive Learning for Semi-Supervised Tooth Segmentation in CBCT},
+  author={Chuyu Zhao and
+                  Hao Huang and
+                  Jiashuo Guo and
+                  Ziyu Shen and
+                  Zhongwei Zhou and
+                  Jie Liu and
+                  Zekuan Yu},
+  journal={arXiv preprint arXiv:2409.05122},
+  year={2024}
+}
 ```
 
 ## 🙏 Acknowledgements
