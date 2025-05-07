@@ -74,7 +74,7 @@ In this study, our CBCT data are stored in `.h5` format, which records the corre
 In `dataloaders/data_augmentation.py`, you need to define the paths to the image and annotation folders of the CBCT scans, and then you can use the following commands to implement the augmentation of labeled data:
 
 ```python
-dataloaders/data_augmentation.py
+dataloaders/data_augmentation_labeled.py
 ```
 
 Then you can use the following command to implement the augmentation of unlabeled data:
