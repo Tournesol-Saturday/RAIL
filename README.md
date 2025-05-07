@@ -1,10 +1,5 @@
 # 🚆 RAIL: Region-Aware Instructive Learning for Semi-Supervised Tooth Segmentation in CBCT
 
-by [Chuyu Zhao<sup>*</sup>](https://github.com/Tournesol-Saturday), [Hao Huang<sup>*</sup>](https://github.com/haohuang2003), [Jiashuo Guo<sup>*</sup>](https://github.com/JiashuoGuo), Ziyu Shen<sup>*</sup>, Zhongwei Zhou, Jie Liu<sup>†</sup>, Zekuan Yu<sup>†</sup> 
-
-*These authors contributed equally to this work.  
-†Corresponding author: jieliu@bjtu.edu.cn, yzk@fudan.edu.cn
-
 ![Python Version](https://img.shields.io/badge/Python-3.8%2B-blue) 
 ![License](https://img.shields.io/github/license/Tournesol-Saturday/RAIL) 
 ![Last Commit](https://img.shields.io/github/last-commit/Tournesol-Saturday/RAIL) 
@@ -12,7 +7,14 @@ by [Chuyu Zhao<sup>*</sup>](https://github.com/Tournesol-Saturday), [Hao Huang<s
 ![Issues](https://img.shields.io/github/issues/Tournesol-Saturday/RAIL) 
 ![Forks](https://img.shields.io/github/forks/Tournesol-Saturday/RAIL)
 
-RAIL is a semi-supervised learning framework designed to improve the accuracy and robustness of 3D tooth segmentation from Cone-Beam Computed Tomography (CBCT) scans, particularly when labeled data is scarce. The framework leverages region-aware instruction mechanisms to focus on anatomically complex or ambiguous areas, significantly enhancing segmentation performance in the presence of unreliable pseudo-labels.
+by [Chuyu Zhao<sup>*</sup>](https://github.com/Tournesol-Saturday), [Hao Huang<sup>*</sup>](https://github.com/haohuang2003), [Jiashuo Guo<sup>*</sup>](https://github.com/JiashuoGuo), Ziyu Shen<sup>*</sup>, Zhongwei Zhou, Jie Liu<sup>†</sup>, Zekuan Yu<sup>†</sup> 
+
+*These authors contributed equally to this work.  
+†Corresponding author: jieliu@bjtu.edu.cn, yzk@fudan.edu.cn
+
+## 🌟 Abstract
+
+Semi-supervised learning has become a compelling approach for 3D tooth segmentation from CBCT scans, where labeled data is minimal. However, existing methods still face two persistent challenges: limited corrective supervision in structurally ambiguous or mislabeled regions during supervised training and performance degradation caused by unreliable pseudo-labels on unlabeled data. To address these problems, we propose Region-Aware Instructive Learning (RAIL), a dual-group dual-student, semi-supervised framework. Each group contains two student models guided by a shared teacher network. By alternating training between the two groups, RAIL promotes intergroup knowledge transfer and collaborative region-aware instruction while reducing overfitting to the characteristics of any single model. Specifically, RAIL introduces two instructive mechanisms. Disagreement-Focused Supervision (DFS) Controller improves supervised learning by instructing predictions only within areas where student outputs diverge from both ground truth and the best student, thereby concentrating supervision on structurally ambiguous or mislabeled areas. In the unsupervised phase, Confidence-Aware Learning (CAL) Modulator reinforces agreement in regions with high model certainty while reducing the effect of low-confidence predictions during training. This helps prevent our model from learning unstable patterns and improves the overall reliability of pseudo-labels. Extensive experiments on four CBCT tooth segmentation datasets show that RAIL surpasses state-ofthe-art methods under limited annotation.
 
 ## 📰 News!
 
@@ -21,6 +23,8 @@ RAIL is a semi-supervised learning framework designed to improve the accuracy an
   Link: https://pan.baidu.com/s/1EXFAeZLMZJLqWjyfUQQkBA?pwd=jqxg. Extraction Code: `jqxg`
 
 ## 🧑‍🏫 Overview
+
+![framework](assets/framework.png)
 
 RAIL (Region-Aware Instructive Learning) is a novel dual-group, dual-student semi-supervised framework for medical image segmentation, specifically designed to address the issue of limited labeled data in CBCT-based 3D tooth segmentation. This approach introduces two key mechanisms:
 - 🔧 **Disagreement-Focused Supervision (DFS) Controller:** Focuses on areas where model predictions diverge to improve supervision in anatomically ambiguous or mislabeled regions.
