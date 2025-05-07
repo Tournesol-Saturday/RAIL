@@ -28,14 +28,15 @@ RAIL (Region-Aware Instructive Learning) is a novel dual-group, dual-student sem
 
 RAIL outperforms state-of-the-art methods under limited annotation scenarios, improving both segmentation accuracy and model reliability in medical imaging tasks.
 
-## ⚙️ Installation
+## ⚙️ Environment
 
 Please follow these steps to create an environment and install the environment dependencies by `requirements.txt`:
 
 ```bash
+conda create -n RAIL python=3.8
+conda activate RAIL
 git clone https://github.com/Tournesol-Saturday/RAIL.git;
-cd ./RAIL;
-conda create --name RAIL python=3.8;
+cd RAIL/code;
 pip install -r requirements.txt
 ```
 
