@@ -41,11 +41,11 @@ RAIL outperforms state-of-the-art methods under limited annotation scenarios, im
 
 Please follow these steps to create an environment and install the environment dependencies by `requirements.txt`:
 
-```bash
+```python
 conda create -n RAIL python=3.8
 conda activate RAIL
 git clone https://github.com/Tournesol-Saturday/RAIL.git;
-cd ./RAIL;
+cd RAIL;
 pip install -r requirements.txt
 ```
 
@@ -66,13 +66,13 @@ In this study, our CBCT data are stored in `.h5` format, which records the corre
 
 In `dataloaders/data_augmentation.py`, you need to define the paths to the image and annotation folders of the CBCT scans, and then you can use the following commands to implement the augmentation of labeled data:
 
-```
+```python
 dataloaders/data_augmentation.py
 ```
 
 Then you can use the following command to implement the augmentation of unlabeled data:
 
-```
+```python
 dataloaders/data_augmentation_unlabeled.py
 ```
 
@@ -135,15 +135,15 @@ dataloaders/data_augmentation_unlabeled.py
 
 ## 🚀 Usage
 
-```
+```python
 cd RAIL/code
 ```
 To train our model,
-```
+```python
 python train_RAIL.py
 ```
 To test our model,
-```
+```python
 python test_CBCT.py
 ```
 
