@@ -146,18 +146,18 @@ python test_CBCT.py
 
 If you use this project in your work, please cite the following paper:
 
-```
+```bibtex
 @article{zhao2025rail,
   title={RAIL: Region-Aware Instructive Learning for Semi-Supervised Tooth Segmentation in CBCT},
   author={Chuyu Zhao and
-                  Hao Huang and
-                  Jiashuo Guo and
-                  Ziyu Shen and
-                  Zhongwei Zhou and
-                  Jie Liu and
-                  Zekuan Yu},
-  journal={arXiv preprint arXiv:2409.05122},
-  year={2024}
+          Hao Huang and
+          Jiashuo Guo and
+          Ziyu Shen and
+          Zhongwei Zhou and
+          Jie Liu and
+          Zekuan Yu},
+  journal={arXiv preprint arXiv:2505.03538},
+  year={2025}
 }
 ```
 
