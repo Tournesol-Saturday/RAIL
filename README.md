@@ -36,7 +36,7 @@ Please follow these steps to create an environment and install the environment d
 conda create -n RAIL python=3.8
 conda activate RAIL
 git clone https://github.com/Tournesol-Saturday/RAIL.git;
-cd RAIL/code;
+cd ./RAIL;
 pip install -r requirements.txt
 ```
 
@@ -127,10 +127,14 @@ dataloaders/data_augmentation_unlabeled.py
 ## 🚀 Usage
 
 ```
-# after install dependcies
-git clone git@github.com:Tournesol-Saturday/RAIL.git
 cd RAIL/code
+```
+To train a model,
+```
 python train_RAIL.py
+```
+To test a model,
+```
 python test_CBCT.py
 ```
 
