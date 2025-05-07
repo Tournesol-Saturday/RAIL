@@ -174,6 +174,9 @@ If you use this project in your work, please cite the following paper:
 ## 🙏 Acknowledgements
 
 If you find this project useful, consider citing or starring 🌟 the repo.
+
+Special thanks to Prof. **Jie Liu** and Prof. **Zekuan Yu** for their guidance throughout this paper.
+
 We would like to acknowledge the contributions of the following projects:
 
 - [PMT](https://github.com/Axi404/PMT)
