@@ -6,7 +6,7 @@
 ![Stars](https://img.shields.io/github/stars/Tournesol-Saturday/RAIL?style=social) 
 ![Issues](https://img.shields.io/github/issues/Tournesol-Saturday/RAIL) 
 ![Forks](https://img.shields.io/github/forks/Tournesol-Saturday/RAIL)
-![arXiv](https://img.shields.io/badge/arXiv-2505.03538-b31b1b)(http://arxiv.org/abs/2505.03538)
+[![arXiv](https://img.shields.io/badge/arXiv-2505.03538-b31b1b)](http://arxiv.org/abs/2505.03538)
 
 by [Chuyu Zhao<sup>*</sup>](https://github.com/Tournesol-Saturday), [Hao Huang<sup>*</sup>](https://github.com/haohuang2003), [Jiashuo Guo<sup>*</sup>](https://github.com/JiashuoGuo), Ziyu Shen<sup>*</sup>, Zhongwei Zhou, Jie Liu<sup>†</sup>, Zekuan Yu<sup>†</sup> 
 
