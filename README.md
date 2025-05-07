@@ -38,7 +38,10 @@ cd ./RAIL;
 pip install -r requirements.txt
 ```
 
-[Optional] Download the model checkpoint and save it at `./model/RAIL_xx_xx_xx/outputs/xx/pmt_0_iter_xxxx_best.pth``./model/RAIL_xx_xx_xx/outputs/xx/pmt_0_iter_xxxx_best.pth``./model/RAIL_xx_xx_xx/outputs/xx/pmt_0_iter_xxxx_best.pth``./model/RAIL_xx_xx_xx/outputs/xx/pmt_0_iter_xxxx_best.pth`.
+[Optional] Download the model checkpoint and save it at `./model/RAIL_xx_xx_xx/outputs/xx/pmt_0_iter_xxxx_best.pth`
+`./model/RAIL_xx_xx_xx/outputs/xx/pmt_0_iter_xxxx_best.pth`
+`./model/RAIL_xx_xx_xx/outputs/xx/pmt_0_iter_xxxx_best.pth`
+`./model/RAIL_xx_xx_xx/outputs/xx/pmt_0_iter_xxxx_best.pth`.
 
 ## 📦 Dataset Preparation
 
