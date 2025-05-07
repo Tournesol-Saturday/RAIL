@@ -35,13 +35,14 @@ Please follow these steps to create an environment and install the environment d
 ```bash
 git clone https://github.com/Tournesol-Saturday/RAIL.git;
 cd ./RAIL;
+conda create --name RAIL python=3.8;
 pip install -r requirements.txt
 ```
 
 [Optional] Download the model checkpoint and save it at `./model/RAIL_xx_xx_xx/outputs/xx/pmt_0_iter_xxxx_best.pth`
-`./model/RAIL_xx_xx_xx/outputs/xx/pmt_0_iter_xxxx_best.pth`
-`./model/RAIL_xx_xx_xx/outputs/xx/pmt_0_iter_xxxx_best.pth`
-`./model/RAIL_xx_xx_xx/outputs/xx/pmt_0_iter_xxxx_best.pth`.
+`./model/RAIL_xx_xx_xx/outputs/xx/pmt_1_iter_xxxx_best.pth`
+`./model/RAIL_xx_xx_xx/outputs/xx/pmt_2_iter_xxxx_best.pth`
+`./model/RAIL_xx_xx_xx/outputs/xx/pmt_3_iter_xxxx_best.pth`.
 
 ## 📦 Dataset Preparation
 
