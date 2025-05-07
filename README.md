@@ -38,7 +38,7 @@ Official code for "[RAIL: Region-Aware Instructive Learning for Semi-Supervised 
 
 ## Requirements
 
-This repository is based on PyTorch 1.11.0, CUDA 12.1, and Python 3.8. All experiments in our paper were conducted on an NVIDIA RTX 4090 24GB GPU with an identical experimental setting.
+This repository is based on Ubuntu 20.04, PyTorch 1.11.0, CUDA 12.1, and Python 3.8. All experiments in our paper were conducted on an NVIDIA RTX 4090 24GB GPU with an identical experimental setting under Linux.
 
 ## ⚙️ Environment
 
