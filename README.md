@@ -133,11 +133,11 @@ dataloaders/data_augmentation_unlabeled.py
 ```
 cd RAIL/code
 ```
-To train a model,
+To train our model,
 ```
 python train_RAIL.py
 ```
-To test a model,
+To test our model,
 ```
 python test_CBCT.py
 ```
