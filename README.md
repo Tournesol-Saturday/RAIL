@@ -17,12 +17,6 @@ by [Chuyu Zhao<sup>*</sup>](https://github.com/Tournesol-Saturday), [Hao Huang<s
 
 Semi-supervised learning has become a compelling approach for 3D tooth segmentation from CBCT scans, where labeled data is minimal. However, existing methods still face two persistent challenges: limited corrective supervision in structurally ambiguous or mislabeled regions during supervised training and performance degradation caused by unreliable pseudo-labels on unlabeled data. To address these problems, we propose Region-Aware Instructive Learning (RAIL), a dual-group dual-student, semi-supervised framework. Each group contains two student models guided by a shared teacher network. By alternating training between the two groups, RAIL promotes intergroup knowledge transfer and collaborative region-aware instruction while reducing overfitting to the characteristics of any single model. Specifically, RAIL introduces two instructive mechanisms. Disagreement-Focused Supervision (DFS) Controller improves supervised learning by instructing predictions only within areas where student outputs diverge from both ground truth and the best student, thereby concentrating supervision on structurally ambiguous or mislabeled areas. In the unsupervised phase, Confidence-Aware Learning  (CAL) Modulator reinforces agreement in regions with high model certainty while reducing the effect of low-confidence predictions during training. This helps prevent our model from learning unstable patterns and improves the overall reliability of pseudo-labels. Extensive experiments on four CBCT tooth segmentation datasets show that RAIL surpasses state-of-the-art methods under limited annotation.
 
-## 📰 News!
-
-- **[05/7/2025]** RAIL framework code and models are now available! Please check out the [GitHub repository](#) for more details.
-- **[04/18/2025]** We provide RAIL model checkpoints trained on 3D_CBCT_Tooth_7_113, 3D_CBCT_Tooth_13_107, CTooth_7_115 and CTooth_13_109.
-  Link: https://pan.baidu.com/s/1EXFAeZLMZJLqWjyfUQQkBA?pwd=jqxg. Extraction Code: `jqxg`
-
 ## 🧑‍🏫 Overview
 
 ![framework](assets/framework.png)
@@ -33,9 +27,18 @@ RAIL (Region-Aware Instructive Learning) is a novel dual-group, dual-student sem
 
 RAIL outperforms state-of-the-art methods under limited annotation scenarios, improving both segmentation accuracy and model reliability in medical imaging tasks.
 
+## Introduction
+Official code for "[RAIL: Region-Aware Instructive Learning for Semi-Supervised Tooth Segmentation in CBCT](http://arxiv.org/abs/2505.03538)". 
+
+## 📰 News!
+
+- **[05/7/2025]** RAIL framework code and models are now available! Please check out the [GitHub repository](#) for more details.
+- **[04/18/2025]** We provide RAIL model checkpoints trained on 3D_CBCT_Tooth_7_113, 3D_CBCT_Tooth_13_107, CTooth_7_115 and CTooth_13_109.
+  Link: https://pan.baidu.com/s/1EXFAeZLMZJLqWjyfUQQkBA?pwd=jqxg. Extraction Code: `jqxg`
+
 ## Requirements
 
-
+This repository is based on PyTorch 1.11.0, CUDA 12.1, and Python 3.8. All experiments in our paper were conducted on an NVIDIA RTX 4090 24GB GPU with an identical experimental setting.
 
 ## ⚙️ Environment
 
