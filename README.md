@@ -27,7 +27,7 @@ RAIL (Region-Aware Instructive Learning) is a novel dual-group, dual-student sem
 
 RAIL outperforms state-of-the-art methods under limited annotation scenarios, improving both segmentation accuracy and model reliability in medical imaging tasks.
 
-## Introduction
+## 📖 Introduction
 Official code for "[RAIL: Region-Aware Instructive Learning for Semi-Supervised Tooth Segmentation in CBCT](http://arxiv.org/abs/2505.03538)". 
 
 ## 📰 News!
@@ -36,7 +36,7 @@ Official code for "[RAIL: Region-Aware Instructive Learning for Semi-Supervised 
 - **[04/18/2025]** We provide RAIL model checkpoints trained on 3D_CBCT_Tooth_7_113, 3D_CBCT_Tooth_13_107, CTooth_7_115 and CTooth_13_109.
   Link: https://pan.baidu.com/s/1EXFAeZLMZJLqWjyfUQQkBA?pwd=jqxg. Extraction Code: `jqxg`
 
-## Requirements
+## 📑 Requirements
 
 This repository is based on Ubuntu 20.04, PyTorch 1.11.0, CUDA 12.1, and Python 3.8. All experiments in our paper were conducted on an NVIDIA RTX 4090 24GB GPU with an identical experimental setting under Linux.
 
@@ -56,7 +56,7 @@ cd RAIL;
 pip install -r requirements.txt
 ```
 
-[Optional] Download the model checkpoint and save it at `./model/RAIL_xx_xx_xx/outputs/xx/pmt_0_iter_xxxx_best.pth`
+🛠️ [Optional] Download the model checkpoint and save it at `./model/RAIL_xx_xx_xx/outputs/xx/pmt_0_iter_xxxx_best.pth`
 `./model/RAIL_xx_xx_xx/outputs/xx/pmt_1_iter_xxxx_best.pth`
 `./model/RAIL_xx_xx_xx/outputs/xx/pmt_2_iter_xxxx_best.pth`
 `./model/RAIL_xx_xx_xx/outputs/xx/pmt_3_iter_xxxx_best.pth`.
@@ -185,6 +185,6 @@ We would like to acknowledge the contributions of the following projects:
 - [PMT](https://github.com/Axi404/PMT)
 - [SDCL](https://github.com/pascalcpp/SDCL)
 
-## Questions
+## ❓ Questions
 
 If you have any questions, welcome contact me at '22723077@bjtu.edu.cn'
