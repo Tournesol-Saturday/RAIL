@@ -44,7 +44,11 @@ Please follow these steps to create an environment and install the environment d
 ```python
 conda create -n RAIL python=3.8
 conda activate RAIL
+```
+```bash
 git clone https://github.com/Tournesol-Saturday/RAIL.git;
+```
+```python
 cd RAIL;
 pip install -r requirements.txt
 ```
