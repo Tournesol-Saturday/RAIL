@@ -35,11 +35,8 @@ Official code for "[RAIL: Region-Aware Instructive Learning for Semi-Supervised 
 
 - **[05/7/2025]** RAIL framework code and models are now available! Please check out the [GitHub repository](#) for more details.
 - **[04/18/2025]** We provide RAIL model checkpoints trained on 3D_CBCT_Tooth_7_113, 3D_CBCT_Tooth_13_107, CTooth_7_115 and CTooth_13_109.  
-  📥 **Download Links:**  
-
-  <img src="https://seeklogo.com/images/B/baidu-cloud-logo-611576F5D1-seeklogo.com.png" width="20" style="vertical-align: middle;"/> **Baidu Cloud**: [https://pan.baidu.com/s/1EXFAeZLMZJLqWjyfUQQkBA?pwd=jqxg](https://pan.baidu.com/s/1EXFAeZLMZJLqWjyfUQQkBA?pwd=jqxg) (Extraction Code: `jqxg`)  
-
-  <img src="https://upload.wikimedia.org/wikipedia/commons/1/1f/Google_Drive_icon_%282020%29.svg" width="20" style="vertical-align: middle;"/> **Google Drive**: [https://drive.google.com/file/d/your_model_link](https://drive.google.com/file/d/your_model_link)
+  📥 **Download Links:** **Baidu Cloud**: [https://pan.baidu.com/s/1EXFAeZLMZJLqWjyfUQQkBA?pwd=jqxg](https://pan.baidu.com/s/1EXFAeZLMZJLqWjyfUQQkBA?pwd=jqxg) (Extraction Code: `jqxg`)
+                         **Google Drive**: [https://drive.google.com/file/d/your_model_link](https://drive.google.com/file/d/your_model_link)
 
 ## 📑 Requirements
 
