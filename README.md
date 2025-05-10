@@ -8,6 +8,7 @@
 ![Forks](https://img.shields.io/github/forks/Tournesol-Saturday/RAIL)
 [![arXiv](https://img.shields.io/badge/arXiv-2505.03538-b31b1b)](http://arxiv.org/abs/2505.03538)
 [![HF-Model](https://img.shields.io/badge/%F0%9F%A4%97%20HF-Model-blue)](https://huggingface.co/Tournesol-Saturday/tooth-segmentation-railNet)
+[![Paper Page](https://img.shields.io/badge/HuggingFace%20Papers-%F0%9F%93%9D-ffcc00)](https://huggingface.co/papers/2505.03538)
 
 by [Chuyu Zhao<sup>*</sup>](https://github.com/Tournesol-Saturday), [Hao Huang<sup>*</sup>](https://github.com/haohuang2003), [Jiashuo Guo<sup>*</sup>](https://github.com/JiashuoGuo), Ziyu Shen<sup>*</sup>, Zhongwei Zhou, Jie Liu<sup>†</sup>, Zekuan Yu<sup>†</sup> 
 
