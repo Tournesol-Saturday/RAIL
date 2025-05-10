@@ -33,6 +33,7 @@ Official code for "[RAIL: Region-Aware Instructive Learning for Semi-Supervised 
 
 ## 📰 News!
 
+- **[05/10/2025]** We deployed our RailNet on [Hugging Face Models](https://huggingface.co/Tournesol-Saturday/railNet-tooth-segmentation-in-CBCT-image) for users to easily load it in one line code.
 - **[05/7/2025]** RAIL framework code and models are now available! Please check out the [GitHub repository](#) for more details.
 - **[04/18/2025]** We provide RAIL model checkpoints trained on 3D_CBCT_Tooth_7_113, 3D_CBCT_Tooth_13_107, CTooth_7_115 and CTooth_13_109.  
   📥 **Download Links (two choices below):**  
