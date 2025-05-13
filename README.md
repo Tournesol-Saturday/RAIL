@@ -12,6 +12,10 @@ by [Chuyu Zhao<sup>*</sup>](https://github.com/Tournesol-Saturday), [Hao Huang<s
 *These authors contributed equally to this work.  
 †Corresponding author: jieliu@bjtu.edu.cn, yzk@fudan.edu.cn
 
+## 🦷 Demo of RailNet: A CBCT Tooth Segmentation System
+
+We release our model and demo on Hugging Face. Users can experience our RailNet CBCT tooth segmentation system by cloning our [Hugging Face repository](https://huggingface.co/Tournesol-Saturday/railNet-tooth-segmentation-in-CBCT-image) and simply running [`gradio_app.py`](https://huggingface.co/Tournesol-Saturday/railNet-tooth-segmentation-in-CBCT-image/blob/main/gradio_app.py).
+
 ## 🌟 Abstract
 
 Semi-supervised learning has become a compelling approach for 3D tooth segmentation from CBCT scans, where labeled data is minimal. However, existing methods still face two persistent challenges: limited corrective supervision in structurally ambiguous or mislabeled regions during supervised training and performance degradation caused by unreliable pseudo-labels on unlabeled data. To address these problems, we propose Region-Aware Instructive Learning (RAIL), a dual-group dual-student, semi-supervised framework. Each group contains two student models guided by a shared teacher network. By alternating training between the two groups, RAIL promotes intergroup knowledge transfer and collaborative region-aware instruction while reducing overfitting to the characteristics of any single model. Specifically, RAIL introduces two instructive mechanisms. Disagreement-Focused Supervision (DFS) Controller improves supervised learning by instructing predictions only within areas where student outputs diverge from both ground truth and the best student, thereby concentrating supervision on structurally ambiguous or mislabeled areas. In the unsupervised phase, Confidence-Aware Learning  (CAL) Modulator reinforces agreement in regions with high model certainty while reducing the effect of low-confidence predictions during training. This helps prevent our model from learning unstable patterns and improves the overall reliability of pseudo-labels. Extensive experiments on four CBCT tooth segmentation datasets show that RAIL surpasses state-of-the-art methods under limited annotation.
@@ -31,7 +35,7 @@ Official code for "[RAIL: Region-Aware Instructive Learning for Semi-Supervised 
 
 ## 📰 News!
 
-- **[05/10/2025]** We deployed our RailNet on [Hugging Face Models](https://huggingface.co/Tournesol-Saturday/railNet-tooth-segmentation-in-CBCT-image) for users to easily load it in one line code.
+- **[05/10/2025]** We deployed our RailNet demo for CBCT tooth segmentation on [Hugging Face Models](https://huggingface.co/Tournesol-Saturday/railNet-tooth-segmentation-in-CBCT-image) for users to easily load it in one line code and view the segmentation effect of our model intuitively.
 - **[05/7/2025]** RAIL framework code and models are now available! Please check out the [GitHub repository](#) for more details.
 - **[04/18/2025]** We provide RAIL model checkpoints trained on 3D_CBCT_Tooth_7_113, 3D_CBCT_Tooth_13_107, CTooth_7_115 and CTooth_13_109.  
   📥 **Download Links (two choices below):**  
