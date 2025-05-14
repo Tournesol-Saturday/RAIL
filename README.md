@@ -4,6 +4,7 @@
 ![License](https://img.shields.io/github/license/Tournesol-Saturday/RAIL) 
 ![Last Commit](https://img.shields.io/github/last-commit/Tournesol-Saturday/RAIL) 
 [![arXiv](https://img.shields.io/badge/arXiv-2505.03538-b31b1b)](http://arxiv.org/abs/2505.03538)
+[![HF-Space](https://img.shields.io/badge/%F0%9F%A4%97%20HF-Space-blue)](https://huggingface.co/spaces/Tournesol-Saturday/railNet-tooth-segmentation-in-CBCT-image)
 [![HF-Model](https://img.shields.io/badge/%F0%9F%A4%97%20HF-Model-blue)](https://huggingface.co/Tournesol-Saturday/tooth-segmentation-railNet)
 [![Paper Page](https://img.shields.io/badge/HuggingFace%20Papers-%F0%9F%93%9D-ffcc00)](https://huggingface.co/papers/2505.03538)
 
