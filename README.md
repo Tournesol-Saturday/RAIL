@@ -17,8 +17,8 @@ by [Chuyu Zhao<sup>*</sup>](https://github.com/Tournesol-Saturday), [Hao Huang<s
 
 We release our [model](https://huggingface.co/Tournesol-Saturday/railNet-tooth-segmentation-in-CBCT-image) and [demo app](https://huggingface.co/spaces/Tournesol-Saturday/railNet-tooth-segmentation-in-CBCT-image) on Hugging Face.    
 There are two ways for users to experience our RailNet CBCT tooth segmentation system:  
-1. Clone our [Hugging Face model repository](https://huggingface.co/Tournesol-Saturday/railNet-tooth-segmentation-in-CBCT-image) and simply run [`gradio_app.py`](https://huggingface.co/Tournesol-Saturday/railNet-tooth-segmentation-in-CBCT-image/blob/main/gradio_app.py).  
-2. Try our [demo app](https://huggingface.co/spaces/Tournesol-Saturday/railNet-tooth-segmentation-in-CBCT-image) without understanding any of our code!
+1.Clone our [Hugging Face model repository](https://huggingface.co/Tournesol-Saturday/railNet-tooth-segmentation-in-CBCT-image) and simply run [`gradio_app.py`](https://huggingface.co/Tournesol-Saturday/railNet-tooth-segmentation-in-CBCT-image/blob/main/gradio_app.py).  
+2.Try our [demo app](https://huggingface.co/spaces/Tournesol-Saturday/railNet-tooth-segmentation-in-CBCT-image) without understanding any of our code!
 
 <p align="center">
   <img src="assets/demo.gif" alt="RailNet performing CBCT tooth segmentation" width="3500"/>
