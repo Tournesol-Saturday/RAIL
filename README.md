@@ -202,7 +202,11 @@ We would like to acknowledge the contributions of the following projects:
 
 ## ⭐️ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=Tournesol-Saturday/RAIL&type=Date)](https://www.star-history.com/#Tournesol-Saturday/RAIL&Date)
+<p align="center">
+  <a href="https://www.star-history.com/#Tournesol-Saturday/RAIL&Date">
+    <img src="https://api.star-history.com/svg?repos=Tournesol-Saturday/RAIL&type=Date" alt="Star History Chart">
+  </a>
+</p>
 
 ## ❓ Questions
 
