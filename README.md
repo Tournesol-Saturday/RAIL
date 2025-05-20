@@ -200,6 +200,10 @@ We would like to acknowledge the contributions of the following projects:
 - [PMT](https://github.com/Axi404/PMT)
 - [SDCL](https://github.com/pascalcpp/SDCL)
 
+## ⭐️ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Tournesol-Saturday/RAIL&type=Date)](https://www.star-history.com/#Tournesol-Saturday/RAIL&Date)
+
 ## ❓ Questions
 
 If you have any questions, welcome contact me at '22723077@bjtu.edu.cn'
